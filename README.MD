@@ -1,0 +1,3 @@
+#gakuburu
+twitterのbot<br>
+twitterbotのリストに入っている人間の救援を見つけて,discodeに流すやつ
