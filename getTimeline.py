@@ -28,6 +28,7 @@ def reserch_twitter():
                 print(tweet['user']['name']+'::'+tweet['text'])
                 print(tweet['created_at'])
                 if tweet['created_at'] not in upload_discord :  
+                    #救援ツイートをした時間をリストに格納しておいて,複数回そのツイートを所得しない
                   upload_discord.append(tweet['created_at'])
                   discode_up()
                     #  discodeにアップロード 
